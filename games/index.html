@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171126">
+  <meta name="description" content="Explore the Venin Games concept catalogue, from floating planets to neon hover racing and lantern-lit forests.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Games · Venin Games">
+  <meta property="og:description" content="Explore the Venin Games concept catalogue, from floating planets to neon hover racing and lantern-lit forests.">
+  <meta property="og:image" content="https://veningames.github.io/assets/images/venin-hero.webp">
+  <title>Games · Venin Games</title>
+  <link rel="canonical" href="https://veningames.github.io/games/">
+  <link rel="alternate" hreflang="en" href="https://veningames.github.io/games/">
+  <link rel="alternate" hreflang="fa" href="https://veningames.github.io/fa/games/">
+  <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body id="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="../" aria-label="Venin Games home" dir="ltr">
+        <span class="brand-mark" aria-hidden="true"><span class="spark"></span></span>
+        <span class="wordmark">VENIN<span>GAMES</span></span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="../">Home</a>
+        <a href="../games/" aria-current="page">Games</a>
+        <a href="../studio/">Studio</a>
+        <a href="../contact/">Contact</a>
+      </nav>
+      <div class="header-tools">
+        <a class="language-switch" href="../fa/games/" hreflang="fa" lang="fa" data-language-switch>
+          <span class="globe-icon" aria-hidden="true"></span>
+          <span>فارسی</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav" hidden>
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-intro catalogue-intro" aria-labelledby="page-title">
+      <div class="catalogue-art"><img src="../assets/images/violet-overdrive.webp" alt="" width="960" height="640" fetchpriority="high"></div>
+      <div class="shell page-intro-copy">
+        <p class="eyebrow"><span class="spark" aria-hidden="true"></span> Venin Games catalogue</p>
+        <h1 id="page-title">Explore our<br><span>game concepts.</span></h1>
+        <p class="page-description">Strange planets, gravity-defying circuits, and a forest that wakes when the light changes.</p>
+      </div>
+    </section>
+
+    <section class="catalogue-section" aria-label="Games">
+      <div class="shell">
+        <div class="catalogue-controls" hidden>
+          <div class="catalogue-toolbar">
+            <div class="field catalogue-search">
+              <label for="game-search">Search games</label>
+              <input id="game-search" type="search" placeholder="Search by title or genre" autocomplete="off">
+            </div>
+            <fieldset class="catalogue-filters">
+              <legend class="visually-hidden">Filter by genre</legend>
+              <button class="filter-button" type="button" data-filter="all" aria-pressed="true">All games</button>
+              <button class="filter-button" type="button" data-filter="platformer" aria-pressed="false">Platformers</button>
+              <button class="filter-button" type="button" data-filter="racing" aria-pressed="false">Racing</button>
+              <button class="filter-button" type="button" data-filter="adventure" aria-pressed="false">Adventure</button>
+            </fieldset>
+          </div>
+          <p class="catalogue-count" role="status" data-format="{count} of {total} concepts"></p>
+        </div>
+
+        <div class="game-grid">
+          <article class="game-card game-orbit" id="orbit-oddity" data-genre="platformer" data-search="Orbit Oddity" data-reveal>
+            <div class="game-visual">
+              <img class="game-image" src="../assets/images/orbit-oddity.webp" alt="A lime-green astronaut approaching a portal on a floating island" width="960" height="640" loading="lazy" decoding="async">
+            </div>
+            <div class="game-info">
+              <div>
+                <p class="game-genre">Exploration platformer</p>
+                <h3 class="game-title" id="orbit-title">Orbit Oddity</h3>
+              </div>
+              <button class="game-open" type="button" aria-haspopup="dialog" aria-labelledby="orbit-action orbit-title" hidden>
+                <span class="visually-hidden" id="orbit-action">Explore</span>
+                <span class="plus-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+            <p class="game-description">Hop between floating islands as a little explorer with very big boots. Every planet has its own gravity, plants that react to your jumps, and hidden paths that reward a detour.</p>
+          </article>
+
+          <article class="game-card game-overdrive" id="violet-overdrive" data-genre="racing" data-search="Violet Overdrive" data-reveal>
+            <div class="game-visual">
+              <img class="game-image" src="../assets/images/violet-overdrive.webp" alt="A pink hover racer banking into a violet-lit city circuit" width="960" height="640" loading="lazy" decoding="async">
+            </div>
+            <div class="game-info">
+              <div>
+                <p class="game-genre">Arcade racer</p>
+                <h3 class="game-title" id="overdrive-title">Violet Overdrive</h3>
+              </div>
+              <button class="game-open" type="button" aria-haspopup="dialog" aria-labelledby="overdrive-action overdrive-title" hidden>
+                <span class="visually-hidden" id="overdrive-action">Explore</span>
+                <span class="plus-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+            <p class="game-description">Throw an anti-gravity pod around tight corners and charge your boost with each clean drift. Take the high route for speed or cut through the city to find riskier shortcuts.</p>
+          </article>
+
+          <article class="game-card game-moss" id="moss-and-ember" data-genre="adventure" data-search="Moss &amp; Ember" data-reveal>
+            <div class="game-visual">
+              <img class="game-image" src="../assets/images/moss-and-ember.webp" alt="A lantern-carrying traveler following stone steps into a glowing forest" width="960" height="640" loading="lazy" decoding="async">
+            </div>
+            <div class="game-info">
+              <div>
+                <p class="game-genre">Puzzle adventure</p>
+                <h3 class="game-title" id="moss-title">Moss &amp; Ember</h3>
+              </div>
+              <button class="game-open" type="button" aria-haspopup="dialog" aria-labelledby="moss-action moss-title" hidden>
+                <span class="visually-hidden" id="moss-action">Explore</span>
+                <span class="plus-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+            <p class="game-description">Carry the last ember through a forest of sleeping ruins. Change the color of your lantern to wake different plants and piece together paths that disappear when the light moves.</p>
+          </article>
+        </div>
+        <div class="catalogue-empty" hidden>
+          <h2>No games found</h2>
+          <p>Try a different title or genre.</p>
+          <button type="button" class="button button-outline" data-reset-filters>Clear search and filters</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="brand" href="../" aria-label="Venin Games home" dir="ltr">
+        <span class="brand-mark" aria-hidden="true"><span class="spark"></span></span>
+        <span class="wordmark">VENIN<span>GAMES</span></span>
+      </a>
+      <p>© Venin Games</p>
+      <a class="footer-top" href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <dialog class="game-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+    <div class="dialog-panel">
+      <img class="dialog-image" src="../assets/images/orbit-oddity.webp" alt="" width="960" height="640" loading="lazy">
+      <div class="dialog-content">
+        <p class="dialog-genre"></p>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-description"></p>
+      </div>
+      <form method="dialog" class="dialog-close">
+        <button class="close-button" type="submit" aria-label="Close game details" autofocus><span class="plus-icon" aria-hidden="true"></span></button>
+      </form>
+    </div>
+  </dialog>
+</body>
+</html>

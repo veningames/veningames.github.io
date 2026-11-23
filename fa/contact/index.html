@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171126">
+  <meta name="description" content="برای همکاری، بازخورد دربارهٔ بازی‌ها و سؤال‌های دیگر با استودیوی ونین گیمز تماس بگیرید.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="تماس با ما · ونین گیمز">
+  <meta property="og:description" content="برای همکاری، بازخورد دربارهٔ بازی‌ها و سؤال‌های دیگر با استودیوی ونین گیمز تماس بگیرید.">
+  <meta property="og:image" content="https://veningames.github.io/assets/images/venin-hero.webp">
+  <title>تماس با ما · ونین گیمز</title>
+  <link rel="canonical" href="https://veningames.github.io/fa/contact/">
+  <link rel="alternate" hreflang="en" href="https://veningames.github.io/contact/">
+  <link rel="alternate" hreflang="fa" href="https://veningames.github.io/fa/contact/">
+  <link rel="icon" type="image/png" href="../../assets/images/favicon.png">
+  <link rel="stylesheet" href="../../assets/site.css">
+  <script src="../../assets/site.js" defer></script>
+</head>
+<body id="home">
+  <a class="skip-link" href="#main">رفتن به محتوا</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="../" aria-label="صفحهٔ اصلی ونین گیمز" dir="ltr">
+        <span class="brand-mark" aria-hidden="true"><span class="spark"></span></span>
+        <span class="wordmark" lang="en">VENIN<span>GAMES</span></span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="منوی اصلی">
+        <a href="../">خانه</a>
+        <a href="../games/">بازی‌ها</a>
+        <a href="../studio/">استودیو</a>
+        <a href="../contact/" aria-current="page">تماس با ما</a>
+      </nav>
+      <div class="header-tools">
+        <a class="language-switch" href="../../contact/" hreflang="en" lang="en" data-language-switch>
+          <span class="globe-icon" aria-hidden="true"></span>
+          <span>English</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="منو" aria-expanded="false" aria-controls="site-nav" hidden>
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-intro contact-intro" aria-labelledby="page-title">
+      <div class="shell contact-layout">
+        <div class="page-intro-copy">
+          <p class="eyebrow"><span class="spark" aria-hidden="true"></span> تماس با ونین گیمز</p>
+          <h1 id="page-title">بیایید چیز عجیبی<br><span>بسازیم.</span></h1>
+          <p class="page-description">اگر ایده‌ای برای همکاری دارید، دربارهٔ یکی از بازی‌ها کنجکاوید یا چیزی هست که می‌خواهید با ما در میان بگذارید، برایمان بنویسید.</p>
+          <div class="contact-methods">
+            <div>
+              <p>ایمیل استودیو</p>
+              <a data-contact-email href="mailto:veningames.team@gmail.com" dir="ltr">veningames.team@gmail.com</a>
+            </div>
+            <a class="profile-link" href="https://github.com/veningames">ونین گیمز در گیت‌هاب</a>
+          </div>
+        </div>
+
+        <form class="contact-form" aria-labelledby="form-title" hidden
+          data-ready="پیش‌نویس ایمیل آماده است."
+          data-copied="پیش‌نویس کپی شد."
+          data-select="متن انتخاب شد. می‌توانید از همین پیش‌نمایش کپی‌اش کنید."
+          data-invalid="پیامتان را بنویسید."
+          data-invalid-name="نامتان را وارد کنید.">
+          <h2 id="form-title">برای استودیو بنویسید</h2>
+          <div class="form-row">
+            <div class="field">
+              <label for="contact-name">نام</label>
+              <input id="contact-name" name="name" autocomplete="name" maxlength="80" required>
+            </div>
+            <div class="field">
+              <label for="contact-email">ایمیل شما</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="160" dir="ltr" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="contact-topic">موضوع</label>
+            <select id="contact-topic" name="topic" required>
+              <option value="" selected disabled>موضوع را انتخاب کنید</option>
+                  <option>همکاری</option>
+                  <option>بازخورد دربارهٔ بازی</option>
+                  <option>رسانه و مطبوعات</option>
+                  <option>سؤال عمومی</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="contact-message">پیام</label>
+            <textarea id="contact-message" name="message" rows="5" maxlength="1000" placeholder="چند خط دربارهٔ ایده یا سؤال‌تان بنویسید…" dir="auto" required></textarea>
+          </div>
+          <button class="button button-main" type="submit">آماده‌کردن ایمیل</button>
+          <p class="form-help">پیش‌نویس را مرور کنید و بعد از برنامهٔ ایمیلتان بفرستید.</p>
+          <p class="form-status" role="status"></p>
+          <div class="message-draft" hidden>
+            <div class="field">
+              <label for="email-draft">پیش‌نویس ایمیل</label>
+              <textarea id="email-draft" rows="5" dir="auto" readonly></textarea>
+            </div>
+            <div class="draft-actions">
+              <a class="button button-main" data-open-mail href="mailto:veningames.team@gmail.com">باز کردن برنامهٔ ایمیل</a>
+              <button class="button button-outline" type="button" data-copy-mail>کپی پیش‌نویس</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="faq-section" aria-labelledby="faq-title">
+      <div class="shell faq-layout">
+        <h2 id="faq-title" data-reveal>سؤال‌های متداول<span>.</span></h2>
+        <div class="faq-list" data-reveal>
+          <details>
+            <summary>در پیشنهاد همکاری چه بنویسم؟<span class="plus-icon" aria-hidden="true"></span></summary>
+            <p>ایده‌تان و کاری را که دوست دارید با هم انجام دهیم توضیح دهید. اگر لینک نمونه یا زمان‌بندی پروژه را دارید، آن را هم بفرستید.</p>
+          </details>
+          <details>
+            <summary>بازی‌ها را کجا می‌شود دید؟<span class="plus-icon" aria-hidden="true"></span></summary>
+            <p>در <a href="../games/">صفحهٔ بازی‌ها</a> تصویر، سبک و معرفی کوتاه هر کانسپت را می‌بینید.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="brand" href="../" aria-label="صفحهٔ اصلی ونین گیمز" dir="ltr">
+        <span class="brand-mark" aria-hidden="true"><span class="spark"></span></span>
+        <span class="wordmark" lang="en">VENIN<span>GAMES</span></span>
+      </a>
+      <p>© ونین گیمز</p>
+      <a class="footer-top" href="#home">بازگشت به بالا</a>
+    </div>
+  </footer>
+</body>
+</html>
